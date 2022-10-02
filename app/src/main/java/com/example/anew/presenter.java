@@ -4,11 +4,9 @@ public class presenter
 {
     private model model;
     private Iview view;
-    public presenter()
+    public presenter(Iview v)
     {
-        model=mew model();
-        this.view=
+        model = new model();
+        this.view = v;
     }
-
-
 }

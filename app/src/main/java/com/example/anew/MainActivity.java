@@ -12,8 +12,9 @@ public class MainActivity extends AppCompatActivity implements Iview
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        presrnter=new presenter()
+        presenter = new presenter(this);
     }
+
 
     @Override
     public void updateView(int row, int col, int player)
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements Iview
     }
 
     @Override
-    public void displayMassage(string message)
+    public void displayMassage(String message)
     {
 
     }

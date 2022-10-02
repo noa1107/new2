@@ -10,6 +10,10 @@ public class model
     {
         ONGOING,TIE,WIN;
     }
+    public enum PLAYER_SYMB
+    {
+        NO,X,O;
+    }
     public model()
     {
         currTurn=0;
@@ -26,10 +30,11 @@ public class model
         {
             for (int j = 0; j <board[0].length; j++)
             {
-                IF
+
 
             }
         }
+        return true;
     }
     public void doMove(int row, int col, int player)
     {
